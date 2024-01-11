@@ -1,0 +1,30 @@
+body {
+    background-color: antiquewhite;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-item {
+    border: 1px solid gray;
+    background-color: burlywood;
+    flex: 0 0 6.25%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.ui {
+    text-align: center;
+}
+button {
+    border: 2px solid white;
+    height: 50px;
+    width: 100px;
+    background-color: blanchedalmond;
+}
+
+#button:hover {
+    background-color: beige;
+}
